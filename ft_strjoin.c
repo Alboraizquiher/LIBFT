@@ -1,6 +1,7 @@
+#include "libft.h"
 #include <stdio.h>
 #include <stdlib.h> // Necesario para malloc y free
-#include <string.h> // Necesario para strlen
+#include <string.h> // Necesario para strlen*/
 
 char *ft_strjoin(const char *s1, const char *s2) {
     size_t s1_len = strlen(s1);
@@ -22,7 +23,8 @@ char *ft_strjoin(const char *s1, const char *s2) {
     return result;
 }
 
-int main() {
+
+/*int main() {
     char s1[100], s2[100];
 
     printf("Ingrese la primera cadena de caracteres: ");
@@ -43,4 +45,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

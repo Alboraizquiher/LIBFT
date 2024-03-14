@@ -1,6 +1,8 @@
-#include <unistd.h> // Para la función write
-#include <fcntl.h> // Para las constantes de file descriptor
-#include <stdio.h> // Para printf
+
+#include "libft.h"
+//#include <unistd.h> // Para la función write
+//#include <fcntl.h> // Para las constantes de file descriptor
+//#include <stdio.h> // Para printf
 
 void ft_putendl_fd(char *s, int fd) {
     while (*s) {
@@ -10,6 +12,7 @@ void ft_putendl_fd(char *s, int fd) {
     write(fd, "\n", 1); // Agregar un salto de línea al final
 }
 
+/*
 int main() {
     // Abrir un archivo para escritura
     int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
@@ -31,4 +34,4 @@ int main() {
     printf("La cadena con salto de línea se ha escrito en el archivo 'output.txt'\n");
 
     return 0;
-}
+}*/

@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h> // Necesario para malloc y free
+/*#include <stdio.h>
+#include <stdlib.h> // Necesario para malloc y free*/
 
 char *ft_substr(const char *s, unsigned int start, size_t len) {
     size_t s_len = 0;
@@ -38,7 +38,7 @@ char *ft_substr(const char *s, unsigned int start, size_t len) {
     return substr;
 }
 
-int main() {
+/*int main() {
     char str[100];
     unsigned int start;
     size_t len;
@@ -64,4 +64,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

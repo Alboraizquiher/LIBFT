@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 size_t ft_strlcat(char *dest, const char *src, size_t size) {
     size_t dest_len = 0;
@@ -29,7 +30,8 @@ size_t ft_strlcat(char *dest, const char *src, size_t size) {
     return total_len;
 }
 
-int main() {
+
+/*int main() {
     char dest[100] = "Hello ";
     const char src[] = "world!";
     size_t size = 100;
@@ -41,4 +43,4 @@ int main() {
     printf("Después de strlcat: dest = %s, src = %s, Total = %zu\n", dest, src, total_len);
 
     return 0;
-}
+}*/

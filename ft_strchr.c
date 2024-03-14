@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 char *ft_strchr(const char *str, int c) {
     while (*str != '\0') {
@@ -13,7 +14,7 @@ char *ft_strchr(const char *str, int c) {
     return NULL;
 }
 
-int main() {
+/*int main() {
     char str[100];
     char character;
 
@@ -32,4 +33,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

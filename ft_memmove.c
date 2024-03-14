@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 void *ft_memmove(void *dest, const void *src, size_t n) {
     char temp[n];
@@ -16,6 +18,7 @@ void *ft_memmove(void *dest, const void *src, size_t n) {
     return dest;
 }
 
+/*
 int main() {
     char src[100], dest[100];
     size_t n;
@@ -28,4 +31,9 @@ int main() {
 
     printf("Antes de memmove: src = %s, dest = %s\n", src, dest);
 
-    ft_memmove(dest, s
+    ft_memmove(dest, src, n);
+
+    printf("Después de memmove: src = %s, dest = %s\n", src, dest);
+
+    return 0;
+}*/

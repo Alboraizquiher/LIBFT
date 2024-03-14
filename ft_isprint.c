@@ -1,9 +1,12 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 int ft_isprint(int c) {
     return (c >= 32 && c <= 126);
 }
 
+/*
 int main() {
     int character;
 
@@ -17,4 +20,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

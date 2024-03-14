@@ -1,4 +1,7 @@
-#include <stdio.h>
+
+
+#include "libft.h"
+//#include <stdio.h>
 
 void *ft_memcpy(void *dest, const void *src, size_t n) {
     char *dest_ptr = (char *)dest;
@@ -9,6 +12,7 @@ void *ft_memcpy(void *dest, const void *src, size_t n) {
     return dest;
 }
 
+/*
 int main() {
     char src[100], dest[100];
     size_t n;
@@ -26,4 +30,4 @@ int main() {
     printf("Después de memcpy: src = %s, dest = %s\n", src, dest);
 
     return 0;
-}
+}*/

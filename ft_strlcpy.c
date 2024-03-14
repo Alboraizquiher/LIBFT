@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 size_t ft_strlcpy(char *dest, const char *src, size_t size) {
     size_t src_len = 0;
@@ -21,7 +23,7 @@ size_t ft_strlcpy(char *dest, const char *src, size_t size) {
     return src_len;
 }
 
-int main() {
+/*int main() {
     char src[100], dest[100];
     size_t size;
 
@@ -38,4 +40,4 @@ int main() {
     printf("Después de strlcpy: src = %s, dest = %s, Copiado = %zu\n", src, dest, copied);
 
     return 0;
-}
+}*/

@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 int ft_toupper(int c) {
     if (c >= 'a' && c <= 'z') {
@@ -7,7 +8,7 @@ int ft_toupper(int c) {
     return c;
 }
 
-int main() {
+/*int main() {
     char character;
 
     printf("Ingrese un caracter en minúscula: ");
@@ -22,4 +23,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

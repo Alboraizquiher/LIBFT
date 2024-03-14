@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 void *ft_memchr(const void *s, int c, size_t n) {
     const unsigned char *ptr = (const unsigned char *)s;
@@ -13,6 +15,7 @@ void *ft_memchr(const void *s, int c, size_t n) {
     return NULL;
 }
 
+/*
 int main() {
     char str[100];
     char character;
@@ -32,4 +35,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

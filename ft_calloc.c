@@ -1,4 +1,7 @@
-#include <stdio.h>
+
+
+#include "libft.h"
+//#include <stdio.h>
 #include <stdlib.h> // Necesario para malloc y free
 
 void *ft_calloc(size_t count, size_t size) {
@@ -22,6 +25,7 @@ void *ft_calloc(size_t count, size_t size) {
     return ptr;
 }
 
+/*
 int main() {
     size_t count, size;
 
@@ -43,4 +47,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

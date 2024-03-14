@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 void ft_striteri(char *s, void (*f)(unsigned int, char *)) {
     if (s == NULL || f == NULL)
@@ -13,7 +14,8 @@ void ft_striteri(char *s, void (*f)(unsigned int, char *)) {
     }
 }
 
-int main() {
+
+/*int main() {
     // Función de ejemplo: imprimir el carácter y su índice
     void print_index(unsigned int index, char *c) {
         printf("Carácter en la posición %u: %c\n", index, *c);
@@ -25,4 +27,4 @@ int main() {
     ft_striteri(str, &print_index);
 
     return 0;
-}
+}*/

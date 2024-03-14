@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h> // Necesario para malloc y free
+#include "libft.h"
+/*#include <stdio.h>
+#include <stdlib.h> // Necesario para malloc y free*/
 
 char *ft_strdup(const char *src) {
     // Primero, calculamos la longitud de la cadena de origen
@@ -23,7 +24,8 @@ char *ft_strdup(const char *src) {
     return dest;
 }
 
-int main() {
+
+/*int main() {
     char src[100];
 
     printf("Ingrese una cadena de caracteres: ");
@@ -41,4 +43,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

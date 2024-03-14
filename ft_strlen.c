@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 size_t ft_strlen(const char *str) {
     size_t length = 0;
@@ -9,7 +10,7 @@ size_t ft_strlen(const char *str) {
     return length;
 }
 
-int main() {
+/*int main() {
     char str[100];
 
     printf("Ingrese una cadena de caracteres: ");
@@ -20,4 +21,4 @@ int main() {
     printf("La longitud de la cadena es: %zu\n", length);
 
     return 0;
-}
+}*/

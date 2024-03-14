@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 int ft_atoi(const char *str) {
     int result = 0;
@@ -22,6 +24,7 @@ int ft_atoi(const char *str) {
     return result * sign;
 }
 
+/*
 int main() {
     char str[100];
 
@@ -33,4 +36,4 @@ int main() {
     printf("El número convertido es: %d\n", number);
 
     return 0;
-}
+}*/

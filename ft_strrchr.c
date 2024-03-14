@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 char *ft_strrchr(const char *str, int c) {
     const char *last_occurrence = NULL;
@@ -17,7 +18,7 @@ char *ft_strrchr(const char *str, int c) {
     return (char *)last_occurrence;
 }
 
-int main() {
+/*int main() {
     char str[100];
     char character;
 
@@ -36,4 +37,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

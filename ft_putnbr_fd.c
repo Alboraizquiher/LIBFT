@@ -1,6 +1,8 @@
-#include <unistd.h> // Para la función write
+
+#include "libft.h"
+/*#include <unistd.h> // Para la función write
 #include <fcntl.h> // Para las constantes de file descriptor
-#include <stdio.h> // Para printf
+#include <stdio.h> // Para printf*/
 
 void ft_putnbr_fd(int n, int fd) {
     if (n < 0) {
@@ -16,6 +18,7 @@ void ft_putnbr_fd(int n, int fd) {
     write(fd, &digit, 1); // Escribir el carácter en el archivo
 }
 
+/*
 int main() {
     // Abrir un archivo para escritura
     int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
@@ -38,4 +41,4 @@ int main() {
     printf("El número se ha escrito en el archivo 'output.txt'\n");
 
     return 0;
-}
+}*/

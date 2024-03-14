@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h> // Necesario para malloc
+#include "libft.h"
+/*#include <stdio.h>
+#include <stdlib.h> // Necesario para malloc*/
 
 char *ft_strtrim(char const *s1, char const *set) {
     // Encuentra la longitud de s1
@@ -38,7 +39,7 @@ char *ft_strtrim(char const *s1, char const *set) {
     return trimmed_str;
 }
 
-int main() {
+/*int main() {
     char s1[100], set[100];
 
     printf("Ingrese una cadena de caracteres: ");
@@ -60,4 +61,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

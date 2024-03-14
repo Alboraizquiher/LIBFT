@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 int ft_memcmp(const void *s1, const void *s2, size_t n) {
     const unsigned char *ptr1 = (const unsigned char *)s1;
@@ -15,6 +17,7 @@ int ft_memcmp(const void *s1, const void *s2, size_t n) {
     return 0;
 }
 
+/*
 int main() {
     char str1[100], str2[100];
     size_t n;
@@ -39,4 +42,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "libft.h"
+//#include <stdio.h>
 
 char *ft_strnstr(const char *haystack, const char *needle, size_t n) {
     size_t needle_len = 0;
@@ -21,7 +22,7 @@ char *ft_strnstr(const char *haystack, const char *needle, size_t n) {
     return NULL;
 }
 
-int main() {
+/*int main() {
     char haystack[100], needle[100];
     size_t n;
 
@@ -43,4 +44,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

@@ -1,10 +1,13 @@
+
+
 #include "libft.h"
-#include <stdio.h>
+//#include <stdio.h>
 
 int ft_isdigit(char c) {
     return (c >= '0' && c <= '9');
 }
 
+/*
 int main() {
     char character;
 
@@ -18,4 +21,4 @@ int main() {
     }
 
     return 0;
-}
+}*/

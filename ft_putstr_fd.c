@@ -1,6 +1,7 @@
-#include <unistd.h> // Para la función write
+#include "libft.h"
+/*#include <unistd.h> // Para la función write
 #include <fcntl.h> // Para las constantes de file descriptor
-#include <stdio.h> // Para printf
+#include <stdio.h> // Para printf*/
 
 void ft_putstr_fd(char *s, int fd) {
     while (*s) {
@@ -9,7 +10,7 @@ void ft_putstr_fd(char *s, int fd) {
     }
 }
 
-int main() {
+/*int main() {
     // Abrir un archivo para escritura
     int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
     if (fd == -1) {
@@ -30,4 +31,4 @@ int main() {
     printf("La cadena se ha escrito en el archivo 'output.txt'\n");
 
     return 0;
-}
+}*/

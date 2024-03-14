@@ -1,4 +1,6 @@
-#include <stdlib.h> // Para malloc
+
+#include "libft.h"
+//#include <stdlib.h> // Para malloc
 
 char *ft_itoa(int n) {
     int len = 0;
@@ -35,6 +37,7 @@ char *ft_itoa(int n) {
     return str;
 }
 
+/*
 int main() {
     int num;
     printf("Ingrese un número entero: ");
@@ -52,4 +55,4 @@ int main() {
     free(str);
 
     return 0;
-}
+}*/

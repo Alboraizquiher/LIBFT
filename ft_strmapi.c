@@ -1,4 +1,5 @@
-#include <stdlib.h> // Para malloc
+#include "libft.h"
+//#include <stdlib.h> // Para malloc
 
 char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) {
     if (s == NULL || f == NULL)
@@ -24,7 +25,7 @@ char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) {
     return result;
 }
 
-int main() {
+/*int main() {
     char str[] = "Hello, World!";
 
     // Función de mapeo: agregar un valor numérico al código ASCII de cada carácter
@@ -41,4 +42,4 @@ int main() {
     free(result);
 
     return 0;
-}
+}*/

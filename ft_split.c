@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h> // Necesario para malloc y free
+#include "libft.h"
+/*#include <stdio.h>
+#include <stdlib.h> // Necesario para malloc y free*/
 
 char **ft_split(char const *s, char c) {
     char **result = NULL;
@@ -54,7 +55,7 @@ char **ft_split(char const *s, char c) {
     return result;
 }
 
-int main() {
+/*int main() {
     char str[] = "Splitting a string using ft_split function";
     char **words = ft_split(str, ' ');
 
@@ -72,4 +73,4 @@ int main() {
     free(words);
 
     return 0;
-}
+}*/

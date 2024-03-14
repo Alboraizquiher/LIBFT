@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+#include "libft.h"
+//#include <stdio.h>
 
 void *ft_memset(void *s, int c, size_t n) {
     unsigned char *ptr = (unsigned char *)s;
@@ -8,6 +10,7 @@ void *ft_memset(void *s, int c, size_t n) {
     return s;
 }
 
+/*
 int main() {
     char str[100];
     int c;
@@ -29,4 +32,4 @@ int main() {
     printf("Después de memset: %s\n", str);
 
     return 0;
-}
+}*/
